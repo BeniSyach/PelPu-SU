@@ -43,15 +43,12 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PUBLIKASI</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
+                        <a class="dropdown-item" href="#">Informasi Dan Edukasi</a>
+                        <a class="dropdown-item" href="#">Advokasi</a>
                     </div>
                 </li>
                 <a class="nav-link" href="#">INFORMASI</a>
-                <a class="nav-link" href="#">TES KETAHANAN DIRI</a>
+                <a class="nav-link" href="#">SURVEY KETAHANAN DIRI</a>
                 <a class="nav-link" href="#">CONTACT</a>
                 <a class="btn btn-primary tombol" href="#">LOGIN</a>
             </div>
@@ -59,16 +56,3 @@
     </div>
 </nav>
 <!-- Akhir Navbar -->
-
-<!-- Jumbroton -->
-<div class="jumbotron jumbotron-fluid">
-    <div class="container text-center">
-        <img src="<?= base_url('assets/img/judul.png') ?>" width="50%">
-        <h1 class="display-4">Pelayanan Publik</h1>
-        <p class="lead">ini Berisi Informasi.</p>
-        <hr>
-    </div>
-</div>
-
-
-<!-- Akhir Jumbroton -->
