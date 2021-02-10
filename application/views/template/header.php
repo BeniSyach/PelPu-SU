@@ -16,13 +16,18 @@
     <!-- costum css -->
     <link rel="stylesheet" href="<?= base_url('assets/costum-css/style.css') ?>">
 
+    <!-- Animasi -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+
     <title><?= $title; ?></title>
 </head>
 
 <!-- Awal Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container">
-        <a class="navbar-brand" href="#"><img src="<?= base_url('assets/img/judul.png') ?>" width="200px"></a>
+<div class="animated bounceInDown">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="<?= base_url('assets/img/judul.png') ?>" width="200px">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,18 +38,18 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">BERITA</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
+                        <a class="dropdown-item animated fadeInUp" href="#">Action</a>
+                        <a class="dropdown-item animated fadeInUp" href="#">Another action</a>
+                        <a class="dropdown-item animated fadeInUp" href="#">Something else here</a>
+                        <!-- <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a> -->
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PUBLIKASI</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Informasi Dan Edukasi</a>
-                        <a class="dropdown-item" href="#">Advokasi</a>
+                        <a class="dropdown-item animated fadeInUp" href="#">Informasi Dan Edukasi</a>
+                        <a class="dropdown-item animated fadeInUp" href="#">Advokasi</a>
                     </div>
                 </li>
                 <a class="nav-link" href="#">INFORMASI</a>
@@ -53,6 +58,5 @@
                 <a class="btn btn-primary tombol" href="#">LOGIN</a>
             </div>
         </div>
-    </div>
-</nav>
-<!-- Akhir Navbar -->
+    </nav>
+    <!-- Akhir Navbar -->

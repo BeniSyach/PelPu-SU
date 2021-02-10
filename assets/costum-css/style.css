@@ -81,7 +81,7 @@ hr {
 	.dropdown-menu {
 		display: none;
 		position: fixed;
-		background-color: #f9f9f9;
+		background-color: #2b2929;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
 		z-index: 1;
 		opacity: 0.7;
@@ -90,6 +90,7 @@ hr {
 	.dropdown-menu a {
 		text-decoration: none;
 		display: block;
+		color: white;
 	}
 
 	.dropdown-item {
@@ -98,5 +99,18 @@ hr {
 
 	.dropdown:hover .dropdown-menu {
 		display: block;
+	}
+
+	.navbar {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	.shrink .navbar {
+		background: #939697;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
+		z-index: 1;
+		opacity: 0.7;
 	}
 }

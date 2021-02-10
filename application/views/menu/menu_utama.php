@@ -8,4 +8,5 @@
             <hr>
         </div>
     </div>
+    </div>
     <!-- Akhir Jumbroton -->
