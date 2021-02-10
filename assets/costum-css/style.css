@@ -1,0 +1,102 @@
+/* navbar */
+body {
+	font-family: Viga;
+}
+
+.navbar-brand {
+	font-family: Viga;
+	font-size: 32px;
+}
+
+.nav-link {
+	font-family: Viga;
+	text-transform: uppercase;
+	margin-right: 5px;
+}
+
+.tombol {
+	text-transform: uppercase;
+	border-radius: 40px;
+	font-family: Viga;
+}
+
+.jumbotron {
+	background-image: url(../img/banner1.gif);
+	/* background-size: cover; */
+	height: 800px;
+
+}
+
+.jumbotron .display-4 {
+	color: white;
+	font-family: Viga;
+	margin-top: 20px;
+
+}
+
+.jumbotron p {
+	color: white;
+	font-family: Viga;
+}
+
+.jumbotron img {
+	margin-top: 150px;
+}
+
+hr {
+	height: 0.5px;
+	width: 70%;
+	color: rgb(255, 253, 253);
+	background-color: rgb(243, 243, 243);
+}
+
+/* Versi Desktop */
+@media (min-width:992px) {
+	.nav-link {
+		font-family: Viga;
+		text-transform: uppercase;
+		margin-right: 5px;
+	}
+
+	.nav-link:hover::after {
+		border-bottom: 2px solid white;
+		content: '';
+		display: block;
+		width: 70%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -7px;
+	}
+
+	.jumbotron {
+		margin-top: -75px;
+	}
+
+	.navbar-brand,
+	.nav-link {
+		color: whitesmoke !important;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.10);
+	}
+
+	.dropdown-menu {
+		display: none;
+		position: fixed;
+		background-color: #f9f9f9;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
+		z-index: 1;
+		opacity: 0.7;
+	}
+
+	.dropdown-menu a {
+		text-decoration: none;
+		display: block;
+	}
+
+	.dropdown-item {
+		font-family: Viga;
+	}
+
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+}
