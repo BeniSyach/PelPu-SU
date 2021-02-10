@@ -50,6 +50,22 @@ hr {
 	background-color: rgb(243, 243, 243);
 }
 
+/* versi Mobile */
+@media only screen and (max-width: 600px) {
+	.navbar {
+		background-color: lightblue;
+	}
+}
+
+.dropdown-menu {
+	display: none;
+	position: relative;
+	background-color: lightblue;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
+	z-index: 1;
+	opacity: 0.7;
+}
+
 /* Versi Desktop */
 @media (min-width:992px) {
 	.nav-link {
@@ -80,7 +96,7 @@ hr {
 
 	.dropdown-menu {
 		display: none;
-		position: fixed;
+		position: relative;
 		background-color: #2b2929;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
 		z-index: 1;
@@ -108,9 +124,10 @@ hr {
 	}
 
 	.shrink .navbar {
-		background: #939697;
+		position: fixed;
+		background-color: #939697;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
 		z-index: 1;
-		opacity: 0.7;
+		opacity: 0.3;
 	}
 }

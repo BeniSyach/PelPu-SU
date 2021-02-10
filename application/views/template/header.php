@@ -26,7 +26,7 @@
 <div class="animated bounceInDown">
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
-            <img src="<?= base_url('assets/img/judul.png') ?>" width="200px">
+            <img src="https://bnn.go.id/konten/unggahan/2019/06/bnn-header-light-480x50.png" width="350px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
