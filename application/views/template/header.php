@@ -40,20 +40,20 @@
                 <a class="nav-link active" href="<?= base_url('menu') ?>">BERANDA</a>
                 <a class="nav-link" href="<?= base_url('profile') ?>">PROFIL</a>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="<?= base_url('berita') ?>" role="button" aria-haspopup="true" aria-expanded="false">BERITA</a>
+                    <a class="nav-link" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">BERITA</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item animated fadeInUp" href="#">Action</a>
-                        <a class="dropdown-item animated fadeInUp" href="#">Another action</a>
-                        <a class="dropdown-item animated fadeInUp" href="#">Something else here</a>
+                        <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Action</a>
+                        <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Another action</a>
+                        <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Something else here</a>
                         <!-- <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Separated link</a> -->
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="<?= base_url('publikasi') ?>" role="button" aria-haspopup="true" aria-expanded="false">PUBLIKASI</a>
+                    <a class="nav-link" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">PUBLIKASI</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item animated fadeInUp" href="#">Informasi Dan Edukasi</a>
-                        <a class="dropdown-item animated fadeInUp" href="#">Advokasi</a>
+                        <a class="dropdown-item animated fadeInUp" href="<?= base_url('publikasi') ?>">Informasi Dan Edukasi</a>
+                        <a class="dropdown-item animated fadeInUp" href="<?= base_url('publikasi') ?>">Advokasi</a>
                     </div>
                 </li>
                 <a class="nav-link" href="<?= base_url('informasi') ?>">INFORMASI</a>

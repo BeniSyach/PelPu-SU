@@ -50,6 +50,8 @@ hr {
 	background-color: rgb(243, 243, 243);
 }
 
+
+
 /* versi Mobile */
 @media only screen and (max-width: 900px) {
 	.navbar {

@@ -22,11 +22,33 @@
                 </button>
             </div>
             <div class="modal-body">
-                ...
+                <div class="row">
+                    <div class="col-md text-center">
+                        <h2>Login</h2>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <form action="" method="POST">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan Email Anda....">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" name="email" placeholder="Masukkkan Password Anda...">
+                            </div>
+                            <div class="form-group">
+                                <a class="badge badge-warning" href="">Lupa Password</a>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Masuk</button>
+                        </form>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <p>Tidak Ada Akun??? Buat akun anda Disini</p><a class="badge badge-primary" href="">Daftar Disini</a>
             </div>
         </div>
     </div>
