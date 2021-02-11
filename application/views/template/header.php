@@ -19,6 +19,9 @@
     <!-- Animasi -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
 
+    <!-- animasi ketika di Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title><?= $title; ?></title>
 </head>
 
@@ -26,6 +29,7 @@
 <div class="animated bounceInDown">
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
+            <!-- gambar Logo BNN -->
             <img src="https://bnn.go.id/konten/unggahan/2019/06/bnn-header-light-480x50.png" width="350px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
