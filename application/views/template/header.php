@@ -28,7 +28,7 @@
 <!-- Awal Navbar -->
 <div class="animated bounceInDown">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="<?= base_url('menu') ?>">
             <!-- gambar Logo BNN -->
             <img src="https://bnn.go.id/konten/unggahan/2019/06/bnn-header-light-480x50.png" width="350px">
         </a>
@@ -37,10 +37,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-link active" href="#">BERANDA</a>
-                <a class="nav-link" href="#">PROFIL</a>
+                <a class="nav-link active" href="<?= base_url('menu') ?>">BERANDA</a>
+                <a class="nav-link" href="<?= base_url('profile') ?>">PROFIL</a>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">BERITA</a>
+                    <a class="nav-link" data-toggle="dropdown" href="<?= base_url('berita') ?>" role="button" aria-haspopup="true" aria-expanded="false">BERITA</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item animated fadeInUp" href="#">Action</a>
                         <a class="dropdown-item animated fadeInUp" href="#">Another action</a>
@@ -50,16 +50,16 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PUBLIKASI</a>
+                    <a class="nav-link" data-toggle="dropdown" href="<?= base_url('publikasi') ?>" role="button" aria-haspopup="true" aria-expanded="false">PUBLIKASI</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item animated fadeInUp" href="#">Informasi Dan Edukasi</a>
                         <a class="dropdown-item animated fadeInUp" href="#">Advokasi</a>
                     </div>
                 </li>
-                <a class="nav-link" href="#">INFORMASI</a>
-                <a class="nav-link" href="#">SURVEY KETAHANAN DIRI</a>
-                <a class="nav-link" href="#">CONTACT</a>
-                <a class="btn btn-primary tombol" href="#">LOGIN</a>
+                <a class="nav-link" href="<?= base_url('informasi') ?>">INFORMASI</a>
+                <a class="nav-link" href="<?= base_url('survey') ?>">SURVEY KETAHANAN DIRI</a>
+                <a class="nav-link" href="<?= base_url('contact') ?>">CONTACT</a>
+                <a class="btn btn-primary tombol" href="#" type="button" data-toggle="modal" data-target="#login">LOGIN</a>
             </div>
         </div>
     </nav>
