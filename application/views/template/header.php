@@ -37,28 +37,77 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-link active" href="<?= base_url('menu') ?>">BERANDA</a>
-                <a class="nav-link" href="<?= base_url('profile') ?>">PROFIL</a>
+                <?php if ($title == 'Pelayanan Publik Sumatera Utara') : ?>
+                    <a class="nav-link navigasi aktif" href="<?= base_url('menu') ?>">BERANDA</a>
+                <?php else : ?>
+                    <a class="nav-link navigasi" href="<?= base_url('menu') ?>">BERANDA</a>
+                <?php endif; ?>
+
+                <?php if ($title == 'Profil - Pelayanan Publik Sumatera Utara') : ?>
+                    <a class="nav-link navigasi aktif" id href="<?= base_url('profile') ?>">PROFIL</a>
+                <?php else : ?>
+                    <a class="nav-link navigasi" id href="<?= base_url('profile') ?>">PROFIL</a>
+                <?php endif; ?>
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">BERITA</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Action</a>
-                        <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Another action</a>
-                        <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Something else here</a>
-                        <!-- <div class="dropdown-divider"></div>
+                    <?php if ($title == 'Berita Utama - Pelayanan Publik Sumatera Utara') : ?>
+                        <a class="nav-link navigasi aktif" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">BERITA</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item animated fadeInUp" id="berita" href="<?= base_url('berita') ?>">Action</a>
+                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Another action</a>
+                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Something else here</a>
+                            <!-- <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Separated link</a> -->
-                    </div>
+                        </div>
+                    <?php else : ?>
+                        <a class="nav-link navigasi" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">BERITA</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item animated fadeInUp" id="berita" href="<?= base_url('berita') ?>">Action</a>
+                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Another action</a>
+                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Something else here</a>
+                            <!-- <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a> -->
+                        </div>
+                    <?php endif; ?>
+
                 </li>
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">PUBLIKASI</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item animated fadeInUp" href="<?= base_url('publikasi') ?>">Informasi Dan Edukasi</a>
-                        <a class="dropdown-item animated fadeInUp" href="<?= base_url('publikasi') ?>">Advokasi</a>
-                    </div>
+                    <?php if ($title == 'Publikasi - Pelayanan Publik Sumatera Utara') : ?>
+                        <a class="nav-link navigasi aktif" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">PUBLIKASI</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('publikasi') ?>">Informasi Dan Edukasi</a>
+                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('publikasi') ?>">Advokasi</a>
+                        </div>
+                    <?php else : ?>
+                        <a class="nav-link navigasi" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">PUBLIKASI</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('publikasi') ?>">Informasi Dan Edukasi</a>
+                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('publikasi') ?>">Advokasi</a>
+                        </div>
+                    <?php endif; ?>
+
                 </li>
-                <a class="nav-link" href="<?= base_url('informasi') ?>">INFORMASI</a>
-                <a class="nav-link" href="<?= base_url('survey') ?>">SURVEY KETAHANAN DIRI</a>
-                <a class="nav-link" href="<?= base_url('contact') ?>">CONTACT</a>
+
+                <?php if ($title == 'Informasi - Pelayanan Publik Sumatera Utara') : ?>
+                    <a class="nav-link navigasi aktif" href="<?= base_url('informasi') ?>">INFORMASI</a>
+                <?php else : ?>
+                    <a class="nav-link navigasi" href="<?= base_url('informasi') ?>">INFORMASI</a>
+                <?php endif; ?>
+
+                <?php if ($title == 'Survey Ketahanan Diri - Pelayanan Publik Sumatera Utara') : ?>
+                    <a class="nav-link navigasi aktif" href="<?= base_url('survey') ?>">SURVEY KETAHANAN DIRI</a>
+                <?php else : ?>
+                    <a class="nav-link navigasi" href="<?= base_url('survey') ?>">SURVEY KETAHANAN DIRI</a>
+                <?php endif; ?>
+
+                <?php if ($title == 'Kontak - Pelayanan Publik Sumatera Utara') : ?>
+                    <a class="nav-link navigasi aktif" href="<?= base_url('contact') ?>">CONTACT</a>
+                <?php else : ?>
+                    <a class="nav-link navigasi" href="<?= base_url('contact') ?>">CONTACT</a>
+                <?php endif; ?>
+
+
                 <a class="btn btn-primary tombol" href="#" type="button" data-toggle="modal" data-target="#login">LOGIN</a>
             </div>
         </div>

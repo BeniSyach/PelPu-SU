@@ -12,5 +12,3 @@ jQuery( document ).ready( function($) {
       }
     });
   });
-
-
