@@ -55,6 +55,35 @@
 </div>
 <!-- Akhir Modal Login -->
 
+<!-- modal Cari -->
+<div class="modal fade" id="cari" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                    <img src="https://bnn.go.id/konten/unggahan/2019/06/bnn-header-dark-480x50.png" width="75%">
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="cari" placeholder="Masukkan Kata Yang Anda Cari">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Cari</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Akhir Modal Cari -->
+
 
 
 

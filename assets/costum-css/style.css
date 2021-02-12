@@ -12,12 +12,14 @@ body {
 	font-family: Viga;
 	text-transform: uppercase;
 	margin-right: 5px;
+	font-size: small;
 }
 
 .tombol {
 	text-transform: uppercase;
 	border-radius: 40px;
 	font-family: Viga;
+	font-size: small;
 }
 
 .menu-utama {
@@ -54,6 +56,11 @@ hr {
 	background-color: rgb(243, 243, 243);
 }
 
+.fas,
+.fab {
+	color: #c8e4e4;
+}
+
 
 
 /* versi Mobile */
@@ -61,6 +68,11 @@ hr {
 	.navbar {
 		background-color: lightblue;
 	}
+
+	i {
+		position: relative;
+	}
+
 }
 
 .dropdown-menu {
@@ -70,6 +82,7 @@ hr {
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10);
 	z-index: 1;
 	opacity: 0.7;
+	font-size: small;
 }
 
 /* Versi Desktop */
@@ -145,4 +158,238 @@ hr {
 		padding-bottom: 5px;
 		margin-bottom: -7px;
 	}
+
+	.img-hover-zoom {
+		width: 100%;
+		max-width: 500px;
+		height: 300px;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+
+	.img-hover-zoom img {
+		transition: transform .5s ease;
+		object-fit: cover;
+		width: 100%;
+		max-width: 500px;
+		height: 300px;
+	}
+
+	.img-hover-zoom:hover img {
+		transform: scale(1.5);
+	}
+
+	.button2 {
+		color: rgba(255, 255, 255, 1);
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		transition: all 0.5s;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.button2 a {
+		color: rgba(51, 51, 51, 1);
+		text-decoration: none;
+		display: block;
+	}
+
+	.button2 i {
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button2:hover>i {
+		opacity: 0;
+		-webkit-transform: translate(0px, -40px);
+		transform: translate(0px, -40px);
+	}
+
+	.button2::after {
+		font-family: "Font Awesome 5 Brands";
+		font-size: large;
+		content: "\f39e";
+		position: absolute;
+		left: 30%;
+		top: 1%;
+		color: rgb(252, 252, 253);
+		opacity: 0;
+		-webkit-transform: translate(0, 30%);
+		transform: translate(0, 30%);
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button2:hover::after {
+		opacity: 1;
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	.button3 {
+		color: rgba(255, 255, 255, 1);
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		transition: all 0.5s;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.button3 a {
+		color: rgba(51, 51, 51, 1);
+		text-decoration: none;
+		display: block;
+	}
+
+	.button3 i {
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button3:hover>i {
+		opacity: 0;
+		-webkit-transform: translate(0px, -40px);
+		transform: translate(0px, -40px);
+	}
+
+	.button3::after {
+		font-family: "Font Awesome 5 Brands";
+		font-size: large;
+		content: "\f099";
+		position: absolute;
+		left: 30%;
+		top: 1%;
+		color: rgb(252, 252, 253);
+		opacity: 0;
+		-webkit-transform: translate(0, 30%);
+		transform: translate(0, 30%);
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button3:hover::after {
+		opacity: 1;
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	.button4 {
+		color: rgba(255, 255, 255, 1);
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		transition: all 0.5s;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.button4 a {
+		color: rgba(51, 51, 51, 1);
+		text-decoration: none;
+		display: block;
+	}
+
+	.button4 i {
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button4:hover>i {
+		opacity: 0;
+		-webkit-transform: translate(0px, -40px);
+		transform: translate(0px, -40px);
+	}
+
+	.button4::after {
+		font-family: "Font Awesome 5 Brands";
+		font-size: large;
+		content: "\f16d";
+		position: absolute;
+		left: 30%;
+		top: 1%;
+		color: rgb(252, 252, 253);
+		opacity: 0;
+		-webkit-transform: translate(0, 30%);
+		transform: translate(0, 30%);
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button4:hover::after {
+		opacity: 1;
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+
+	.button5 {
+		color: rgba(255, 255, 255, 1);
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		transition: all 0.5s;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.button5 a {
+		color: rgba(51, 51, 51, 1);
+		text-decoration: none;
+		display: block;
+	}
+
+	.button5 i {
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button5:hover>i {
+		opacity: 0;
+		-webkit-transform: translate(0px, -40px);
+		transform: translate(0px, -40px);
+	}
+
+	.button5::after {
+		font-family: "Font Awesome 5 Brands";
+		font-size: large;
+		content: "\f39f";
+		position: absolute;
+		left: 30%;
+		top: 1%;
+		color: rgb(252, 252, 253);
+		opacity: 0;
+		-webkit-transform: translate(0, 30%);
+		transform: translate(0, 30%);
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button5:hover::after {
+		opacity: 1;
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	.button6 i:hover {
+		border-bottom: 2px solid white;
+	}
+
 }

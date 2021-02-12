@@ -22,6 +22,9 @@
     <!-- animasi ketika di Scroll -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <!-- costum css -->
+    <link rel="stylesheet" href="<?= base_url('assets/costum-css/css/all.css') ?>">
+
     <title><?= $title; ?></title>
 </head>
 
@@ -30,7 +33,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="<?= base_url('menu') ?>">
             <!-- gambar Logo BNN -->
-            <img src="https://bnn.go.id/konten/unggahan/2019/06/bnn-header-light-480x50.png" width="350px">
+            <img src="https://bnn.go.id/konten/unggahan/2019/06/bnn-header-light-480x50.png" width="300px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -53,18 +56,18 @@
                     <?php if ($title == 'Berita Utama - Pelayanan Publik Sumatera Utara') : ?>
                         <a class="nav-link navigasi aktif" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">BERITA</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item animated fadeInUp" id="berita" href="<?= base_url('berita') ?>">Action</a>
-                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Another action</a>
-                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Something else here</a>
+                            <a class="dropdown-item animated fadeInUp" id="berita" href="<?= base_url('berita') ?>">Artikel</a>
+                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Majalah</a>
+                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Paper</a>
                             <!-- <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Separated link</a> -->
                         </div>
                     <?php else : ?>
                         <a class="nav-link navigasi" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">BERITA</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item animated fadeInUp" id="berita" href="<?= base_url('berita') ?>">Action</a>
-                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Another action</a>
-                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Something else here</a>
+                            <a class="dropdown-item animated fadeInUp" id="berita" href="<?= base_url('berita') ?>">Artikel</a>
+                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Majalah</a>
+                            <a class="dropdown-item animated fadeInUp" href="<?= base_url('berita') ?>">Paper</a>
                             <!-- <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Separated link</a> -->
                         </div>
@@ -109,6 +112,23 @@
 
 
                 <a class="btn btn-primary tombol" href="#" type="button" data-toggle="modal" data-target="#login">LOGIN</a>
+
+                <a class="nav-link ml-5 button2" href="">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+                <a class="nav-link button3" href="">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a class="nav-link button4" href="">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a class="nav-link button5" href="">
+                    <i class="fas fa-envelope fa-lg"></i>
+                </a>
+                <div class="border-right mx-3 button6"></div>
+                <a class="nav-link" href="#" type="button" data-toggle="modal" data-target="#cari">
+                    <i class="fas fa-search fa-lg"></i>
+                </a>
             </div>
         </div>
     </nav>
