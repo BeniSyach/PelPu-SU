@@ -29,7 +29,13 @@ body {
 
 .berita {
 	background-image: url(../img/berita.jpg);
-	height: 500px;
+	height: 100%;
+	background-size: cover;
+}
+
+.profile {
+	background-image: url(../img/profile.jpg);
+	height: 100%;
 	background-size: cover;
 }
 
@@ -144,9 +150,10 @@ hr {
 
 	.shrink .navbar {
 		position: fixed;
-		background-color: #939697;
-		opacity: 0.4;
-		filter: alpha(opacity=60);
+		background-color: rgba(146, 146, 146, 0.8);
+		top: 0;
+		width: 100%;
+		z-index: 1;
 	}
 
 	.aktif::after {
@@ -388,8 +395,8 @@ hr {
 		transform: translate(0, 0);
 	}
 
-	.button6 i:hover {
-		border-bottom: 2px solid white;
+	.button6 i:hover::after {
+		color: rgb(252, 252, 253);
 	}
 
 }
