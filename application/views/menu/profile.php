@@ -12,18 +12,18 @@
 
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-md-4">
+            <div class="col-md-3 text-justify">
                 <div class="list-group">
-                    <a type="button" id="tentang" class="list-group-item list-group-item-action mb-4"><i class="fas fa-id-badge fa-lg mx-3"></i>
+                    <a type="button" id="tentang" class="list-group-item list-group-item-action rounded-lg mb-4 py-4 tentang active"><i class="fas fa-id-badge fa-lg mx-3"></i>
                         Tentang
                     </a>
-                    <a type="button" id="visidanmisi" class="list-group-item list-group-item-action mb-4">
+                    <a type="button" id="visidanmisi" class="list-group-item list-group-item-action mb-4 rounded-lg py-4 visidanmisi">
                         <i class="fas fa-file-archive fa-lg mx-3"></i>
                         Visi Dan Misi</a>
-                    <a type="button" id="tugasdanfungsi" class="list-group-item list-group-item-action mb-4">
+                    <a type="button" id="tugasdanfungsi" class="list-group-item list-group-item-action mb-4 rounded-lg  py-4 tugasdanfungsi">
                         <i class="fab fa-gripfire fa-lg mx-3"></i>
                         Tugas Dan Fungsi</a>
-                    <a type="button" id="struktur" class="list-group-item list-group-item-action mb-4">
+                    <a type="button" id="struktur" class="list-group-item list-group-item-action mb-4 rounded-lg  py-4 struktur">
                         <i class="fas fa-peace fa-lg mx-3"></i>
                         Struktur</a>
                 </div>
@@ -36,19 +36,68 @@
 
     <div class="container-fluid">
         <div class="row mt-5 justify-content-center">
-            <div class="col-md text-center">
+            <div class="col-md-10 text-center">
                 <h1>Berita Terbaru</h1>
                 <h3>Berita Harian Badan Narkotika Nasional</h3>
+                <div class="border-bottom border-dark my-3 "></div>
             </div>
+
         </div>
-        <div class="border-bottom border-dark "></div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <h1>tes</h1>
-
+    <div data-aos="fade-up">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 my-2">
+                    <div class="card">
+                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2 ">
+                    <div class="card">
+                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2 ">
+                    <div class="card">
+                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2 ">
+                    <div class="card">
+                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2 ">
+                    <div class="card">
+                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
