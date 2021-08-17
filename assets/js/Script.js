@@ -1,57 +1,58 @@
-jQuery( document ).ready( function($) {
-    $( window ).scroll( function () {
-      if ( $(document).scrollTop() > 10 ) {
-        // Navigation Bar
-        $('.navbar').removeClass('fadeInUp');
-        $('body').addClass('shrink');
-        $('.navbar').addClass('animated fadeDown');
-      } else {
-        $('.navbar').removeClass('animated fadeInUp');
-        $('body').removeClass('shrink');
-        $('.navbar').addClass('animated fadeIn');
-      }
-    });
-  });
+jQuery(document).ready(function ($) {
+	$(window).scroll(function () {
+		if ($(document).scrollTop() > 10) {
+			// Navigation Bar
+			$('.navbar').removeClass('fadeInUp');
+			$('body').addClass('shrink');
+			$('.navbar').addClass('animated fadeDown');
+		} else {
+			$('.navbar').removeClass('animated fadeInUp');
+			$('body').removeClass('shrink');
+			$('.navbar').addClass('animated fadeIn');
+		}
+	});
+});
 
-  $(document).ready(function() {
-    $('#tentang').click(function() {
-      $('#isi').empty().append('');
-      // Mengisi tag html prifle tentang
-      $('#isi').append(' <p data-aos="fade-up" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem similique, ipsum quia voluptate nostrum quam dolorum dolor, aut deserunt, beatae perferendis quo necessitatibus reprehenderit enim tempore ut minima? Eos, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non neque cumque asperiores quasi sit quod tempore quaerat dignissimos fugit. Facere dolorem, consectetur tempore eum adipisci accusamus eligendi quia aperiam nemo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, soluta cupiditate? Consectetur, accusamus itaque. Autem totam ipsa tempore at, mollitia, animi harum exercitationem laudantium similique commodi, temporibus voluptatem suscipit in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis veritatis porro blanditiis omnis excepturi suscipit nulla quasi, deserunt quas natus neque vel ipsam fugiat ab corporis magnam aut explicabo? Exercitationem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis non quas et dolorum? Iure, dolorem assumenda laboriosam, fuga molestias amet consequuntur quibusdam maiores quia consequatur nobis quas soluta! Ipsum, aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur mollitia doloribus quod aspernatur laborum fuga reiciendis beatae. Iusto officiis repudiandae possimus. Delectus esse perferendis cumque sunt earum? Quidem, possimus porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestiae illo officiis error repudiandae fugiat sit eos! Fugit facilis maiores maxime explicabo unde, laborum officia nihil, temporibus earum consequatur libero?</p>');
+$(document).ready(function () {
 
-      $('.list-group-item').removeClass('active');
-      $('.tentang').addClass('active');
-    })
+	$('#tentang').click(function () {
+		$('#isi').empty().append('');
+		// Mengisi tag html prifle tentang
+		$('#isi').append(' <p data-aos="fade-up" >Badan Narkotika Nasional (disingkat BNN) adalah sebuah Lembaga Pemerintah Non Kementerian (LPNK) Indonesia yang mempunyai tugas melaksanakan tugas pemerintahan di bidang pencegahan, pemberantasan penyalahgunaan dan peredaran gelap narkotika, psikotropika, prekursor dan bahan adiktif lainnya kecuali bahan adiktif untuk tembakau dan alkohol. BNN dipimpin oleh seorang kepala yang bertanggung jawab langsung kepada Presiden. <br><br>Dasar hukum BNN adalah Undang-Undang Nomor 35 tahun 2009 tentang Narkotika. Sebelumnya, BNN merupakan lembaga nonstruktural yang dibentuk berdasarkan Keputusan Presiden Nomor 17 Tahun 2002, yang kemudian diganti dengan Peraturan Presiden Nomor 83 Tahun 2007.<br><br><h2>Sejarah</h2><br>Sejarah penanggulangan bahaya narkotika dan kelembagaannya di Indonesia dimulai tahun 1971 pada saat dikeluarkannya Instruksi Presiden Republik Indonesia (Inpres) Nomor 6 Tahun 1971 kepada Kepala Badan Koordinasi Intelijen Nasional (BAKIN) untuk menanggulangi 6 (enam) permasalahan nasional yang menonjol, yaitu pemberantasan uang palsu, penanggulangan penyalahgunaan narkoba, penanggulangan penyelundupan, penanggulangan kenakalan remaja, penanggulangan subversi, pengawasan orang asing.<br><br>Berdasarkan Inpres tersebut Kepala BAKIN membentuk Bakolak Inpres Tahun 1971 yang salah satu tugas dan fungsinya adalah menanggulangi bahaya narkoba. Bakolak Inpres adalah sebuah badan koordinasi kecil yang beranggotakan wakil-wakil dari Departemen Kesehatan, Departemen Sosial, Departemen Luar Negeri, Kejaksaan Agung, dan lain-lain, yang berada di bawah komando dan bertanggung jawab kepada Kepala BAKIN. Badan ini tidak mempunyai wewenang operasional dan tidak mendapat alokasi anggaran sendiri dari ABPN melainkan disediakan berdasarkan kebijakan internal BAKIN.<br><br>Pada masa itu, permasalahan narkoba di Indonesia masih merupakan permasalahan kecil dan Pemerintah Orde Baru terus memandang dan berkeyakinan bahwa permasalahan narkoba di Indonesia tidak akan berkembang karena bangsa Indonesia adalah bangsa yang ber-Pancasila dan agamis. Pandangan ini ternyata membuat pemerintah dan seluruh bangsa Indonesia lengah terhadap ancaman bahaya narkoba, sehingga pada saat permasalahan narkoba meledak dengan dibarengi krisis mata uang regional pada pertengahan tahun 1997, pemerintah dan bangsa Indonesia seakan tidak siap untuk menghadapinya, berbeda dengan Singapura, Malaysia dan Thailand yang sejak tahun 1970 secara konsisten dan terus menerus memerangi bahaya narkoba.<br><br>Menghadapi permasalahan narkoba yang berkecenderungan terus meningkat, Pemerintah dan Dewan Perwakilan Rakyat Republik Indonesia (DPR-RI) mengesahkan Undang-Undang Nomor 5 Tahun 1997 tentang Psikotropika dan Undang-Undang Nomor 22 Tahun 1997 tentang Narkotika. Berdasarkan kedua Undang-undang tersebut, Pemerintah (Presiden Abdurahman Wahid) membentuk Badan Koordinasi Narkotika Nasional (BKNN), dengan Keputusan Presiden Nomor 116 Tahun 1999. BKNN adalah suatu Badan Koordinasi penanggulangan narkoba yang beranggotakan 25 Instansi Pemerintah terkait.<br><br>BKNN diketuai oleh Kepala Kepolisian Republik Indonesia (Kapolri) secara ex-officio. Sampai tahun 2002 BKNN tidak mempunyai personel dan alokasi anggaran sendiri. Anggaran BKNN diperoleh dan dialokasikan dari Markas Besar Kepolisian Negara Republik Indonesia (Mabes Polri), sehingga tidak dapat melaksanakan tugas dan fungsinya secara maksimal.<br><br>BKNN sebagai badan koordinasi dirasakan tidak memadai lagi untuk menghadapi ancaman bahaya narkoba yang makin serius. Oleh karenanya berdasarkan Keputusan Presiden Nomor 17 Tahun 2002 tentang Badan Narkotika Nasional, BKNN diganti dengan Badan Narkotika Nasional (BNN). BNN, sebagai sebuah lembaga forum dengan tugas mengoordinasikan 25 instansi pemerintah terkait dan ditambah dengan kewenangan operasional, mempunyai tugas dan fungsi: 1. mengoordinasikan instansi pemerintah terkait dalam perumusan dan pelaksanaan kebijakan nasional penanggulangan narkoba; dan 2. mengoordinasikan pelaksanaan kebijakan nasional penanggulangan narkoba.<br><br>Mulai tahun 2003 BNN baru mendapatkan alokasi anggaran dari APBN. Dengan alokasi anggaran APBN tersebut, BNN terus berupaya meningkatkan kinerjanya bersama-sama dengan BNP dan BNK. Namun karena tanpa struktur kelembagaan yang memilki jalur komando yang tegas dan hanya bersifat koordinatif (kesamaan fungsional semata), maka BNN dinilai tidak dapat bekerja optimal dan tidak akan mampu menghadapi permasalahan narkoba yang terus meningkat dan makin serius. Oleh karena itu pemegang otoritas dalam hal ini segera menerbitkan Peraturan Presiden Nomor 83 Tahun 2007 tentang Badan Narkotika Nasional, Badan Narkotika Provinsi (BNP) dan Badan Narkotika Kabupaten/Kota (BNK), yang memiliki kewenangan operasional melalui kewenangan Anggota BNN terkait dalam satuan tugas, yang mana BNN-BNP-BNKab/Kota merupakan mitra kerja pada tingkat nasional, provinsi dan kabupaten/kota yang masing-masing bertanggung jawab kepada Presiden, Gubernur dan Bupati/Walikota, dan yang masing-masing (BNP dan BN Kab/Kota) tidak mempunyai hubungan struktural-vertikal dengan BNN.<br><br>Merespon perkembangan permasalahan narkoba yang terus meningkat dan makin serius, maka Ketetapan MPR-RI Nomor VI/MPR/2002 melalui Sidang Umum Majelis Permusyawaratan Rakyat Republik Indonesia (MPR-RI) Tahun 2002 telah merekomendasikan kepada DPR-RI dan Presiden RI untuk melakukan perubahan atas Undang-Undang Nomor 22 Tahun 1997 tentang Narkotika. Oleh karena itu, Pemerintah dan DPR-RI mengesahkan dan mengundangkan Undang-Undang Nomor 35 Tahun 2009 tentang Narkotika, sebagai perubahan atas UU Nomor 22 Tahun 1997. Berdasarkan UU Nomor 35 Tahun 2009 tersebut, BNN diberikan kewenangan penyelidikan dan penyidikan tindak pidana narkotika dan prekursor narkotika. Yang diperjuangkan BNN saat ini adalah cara untuk MEMISKINKAN para bandar atau pengedar narkoba, karena disinyalir dan terbukti pada beberapa kasus penjualan narkoba sudah digunakan untuk pendanaan teroris (Narco Terrorism) dan juga untuk menghindari kegiatan penjualan narkoba untuk biaya politik (Narco for Politic). </p>');
 
-    
+		$('.list-group-item').removeClass('active');
+		$('.tentang').addClass('active');
+	})
 
-    $('#visidanmisi').click(function() {
 
-      $('#isi').empty().append('');
-      // Mengisi tag html prifle tentang
-      $('#isi').append(' <p data-aos="fade-up" >Consequuntur mollitia doloribus quod aspernatur laborum fuga reiciendis beatae. Iusto officiis repudiandae possimus. Delectus esse perferendis cumque sunt earum? Quidem, possimus porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestiae illo officiis error repudiandae fugiat sit eos! Fugit facilis maiores maxime explicabo unde, laborum officia nihil, temporibus earum consequatur libero?</p>');
-      
-      $('.list-group-item').removeClass('active');
-      $('.visidanmisi').addClass('active');
-    })
 
-    $('#tugasdanfungsi').click(function() {
+	$('#visidanmisi').click(function () {
 
-      $('#isi').empty().append('');
-      // Mengisi tag html prifle tentang
-      $('#isi').append(' <p data-aos="fade-up" >Consequuntur mollitia doloribus quod aspernatur laborum fuga reiciendis beatae. Iusto officiis repudiandae possimus. Delectus esse perferendis cumque sunt earum? Quidem, possimus porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestiae illo officiis error repudiandae fugiat sit eos! Fugit facilis maiores maxime explicabo unde, laborum officia nihil, temporibus earum consequatur libero?</p>');
-      
-      $('.list-group-item').removeClass('active');
-      $('.tugasdanfungsi').addClass('active');
-    })
+		$('#isi').empty().append('');
+		// Mengisi tag html prifle tentang
+		$('#isi').append(' <p data-aos="fade-up" ><h2>Visi</h2><br>“Menjadi lembaga yang profesional, tangguh, dan terpercaya dalam pencegahan dan pemberantasan penyalahgunaan dan peredaran gelap narkotika”<br><br><br><h2>Misi</h2><ol data-aos="fade-up"><li>Mengembangkan dan memperkuat kapasitas kelembagaan.</li><li>Mengoptimalisasi sumberdaya dalam penyelenggaraan pencegahan dan pemberantasan penyalahgunaan dan peredaran gelap narkotika.</li><li>Melaksanaksanakan pencegahan penyalahgunaan narkotika secara komprehensif.</li><li>Memberantas peredaran gelap narkotika secara profesional.</li></ol></p>');
 
-    $('#struktur').click(function() {
+		$('.list-group-item').removeClass('active');
+		$('.visidanmisi').addClass('active');
+	})
 
-      $('#isi').empty().append('');
-      // Mengisi tag html prifle tentang
-      $('#isi').append(' <p data-aos="fade-up" >Consequuntur mollitia doloribus quod aspernatur laborum fuga reiciendis beatae. Iusto officiis repudiandae possimus. Delectus esse perferendis cumque sunt earum? Quidem, possimus porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestiae illo officiis error repudiandae fugiat sit eos! Fugit facilis maiores maxime explicabo unde, laborum officia nihil, temporibus earum consequatur libero?</p>');
-      
-      $('.list-group-item').removeClass('active');
-      $('.struktur').addClass('active');
-    })
-  });
+	$('#tugasdanfungsi').click(function () {
+
+		$('#isi').empty().append('');
+		// Mengisi tag html prifle tentang
+		$('#isi').append(' <p data-aos="fade-up" ><h2>Tugas</h2><br>1. Menyusun dan melaksanakan kebijakan nasional mengenai pencegahan dan pemberantasan penyalahgunaan dan peredaran gelap Narkotika dan Prekursor Narkotika<br>2. Mencegah dan memberantas penyalahgunaan dan peredaran gelap Narkotika dan Prekursor Narkotika<br>3. Berkoordinasi dengan Kepala Kepolisian Negara Republik Indonesia dalam pencegahan dan pemberantasan penyalahgunaan dan peredaran gelap Narkotika dan Prekursor Narkotika<br>4. Meningkatkan kemampuan lembaga rehabilitasi medis dan rehabilitasi sosial pecandu Narkotika, baik yang diselenggarakan oleh pemerintah maupun masyarakat<br>5. Memberdayakan masyarakat dalam pencegahan penyalahgunaan dan peredaran gelap Narkotika dan Prekursor Narkotika<br>6. Memantau, mengarahkan dan meningkatkan kegiatan masyarakat dalam pencegahan penyalahgunaan dan peredaran gelap Narkotika dan Psikotropika Narkotika<br>7. Melalui kerja sama bilateral dan multiteral, baik regional maupun internasional, guna mencegah dan memberantas peredaran gelap Narkotika dan Prekursor Narkotika<br>8. Mengembangkan laboratorium Narkotika dan Prekursor Narkotika<br>9. Melaksanakan administrasi penyelidikan dan penyidikan terhadap perkara penyalahgunaan dan peredaran gelap Narkotika dan Prekursor Narkotika; dan<br>10. Membuat laporan tahunan mengenai pelaksanaan tugas dan wewenang.<br><br>Selain tugas sebagaimana diatas, BNN juga bertugas menyusun dan melaksanakan kebijakan nasional mengenai pencegahan dan pemberantasan penyalahgunaan dan peredaran gelap narkotika, psikotropika, prekursor dan bahan adiktif lainnya kecuali bahan adiktif untuk tembakau dan alkohol. <br><br><br><h2>Fungsi</h2><br>1. Penyusunan dan perumusan kebijakan nasional di bidang pencegahan dan pemberantasan penyalahgunaan dan peredaran gelap narkotika, psikotropika dan prekursor serta bahan adiktif lainnya kecuali bahan adiktif untuk tembakau dan alkohol yang selanjutnya disingkat dengan P4GN.<br>2. Penyusunan, perumusan dan penetapan norma, standar, kriteria dan prosedur P4GN.<br>3. Penyusunan perencanaan, program dan anggaran BNN.<br>4. Penyusunan dan perumusan kebijakan teknis pencegahan, pemberdayaan masyarakat, pemberantasan, rehabilitasi, hukum dan kerjasama di bidang P4GN.<br>5. Pelaksanaan kebijakan nasional dan kebijakna teknis P4GN di bidang pencegahan, pemberdayaan masyarakat, pemberantasan, rehabilitasi, hukum dan kerjasama.<br>6. Pelaksanaan pembinaan teknis di bidang P4GN kepada instansi vertikal di lingkungan BNN.<br>7. Pengkoordinasian instansi pemerintah terkait dan komponen masyarakat dalam rangka penyusunan dan perumusan serta pelaksanaan kebijakan nasional di bidang P4GN.<br>8. Penyelenggaraan pembinaan dan pelayanan administrasi di lingkungan BNN.<br>9. Pelaksanaan fasilitasi dan pengkoordinasian wadah peran serta masyarakat.<br>10. Pelaksanaan penyelidikan dan penyidikan penyalahgunaan dan peredaran gelap Narkotika dan Prekursor Narkotika.<br>11. Pelaksanaan pemutusan jaringan kejahatan terorganisasi di bidang narkotika, psikotropika dan prekursor serta bahan adiktif lainnya, kecuali bahan adiktif untuk tembakau dan alkohol.<br>12. Pengoordinasian instansi pemerintah terkait maupun komponen masarakat dalam pelaksanaan rehabilitasi dan penyatuan kembali ke dalam masyarakat serta perawatan lanjutan bagi penyalahguna dan/atau pecandu narkotika dan psikotropika serta bahan adiktif lainnya kecuali bahan adiktif untuk tembakau dan alkohol di tingkat pusat dan daerah.<br>13. Pengkoordinasian peningkatan kemampuan lembaga rehabilitasi medis dan rehabilitasi sosial pecandu narkotika dan psikotropika serta bahan adiktif lainnya, kecuali bahan adiktif untuk tembakau dan alkohol yang diselenggarakan oleh pemerintah dan masyarakat.<br>14. Peningkatan kemampuan lembaga rehabilitasi penyalahguna dan/atau pecandu narkotika dan psikotropika serta bahan adiktif lainnya, kecuali bahan adiktif tembakau dan alkohol berbasis komunitas terapeutik atau metode lain yang telah teruji keberhasilannya.<br>15. Pelaksanaan penyusunan, pengkajian dan perumusan peraturan perundang-undangan serta pemberian bantuan hukum di bidang P4GN.<br>16. Pelaksanaan kerjasama nasional, regional dan internasional di bidang P4GN.<br>17. Pelaksanaan pengawasan fungsional terhadap pelaksanaan P4GN di lingkungan BNN.<br>18. Pelaksanaan koordinasi pengawasan fungsional instansi pemerintah terkait dan komponen masyarakat di bidang P4GN.<br>19. Pelaksanaan penegakan disiplin, kode etik pegawai BNN dan kode etik profesi penyidik BNN.<br>20. Pelaksanaan pendataan dan informasi nasional penelitian dan pengembangan, serta pendidikan dan pelatihan di bidang P4GN.<br>21. Pelaksanaan pengujian narkotika, psikotropika dan prekursor serta bahan adiktif lainnya, kecuali bahan adiktif untuk tembakau dan alkohol.<br>22. Pengembangan laboratorium uji narkotika, psikotropika dan prekursor serta bahan adiktif lainnya, kecuali bahan adiktif tembakau dan alkohol.<br>23. Pelaksanaan evaluasi dan pelaporan pelaksanaan kebijakan nasional di bidang P4GN.</p>');
+
+		$('.list-group-item').removeClass('active');
+		$('.tugasdanfungsi').addClass('active');
+	})
+
+	$('#struktur').click(function () {
+
+		$('#isi').empty().append('');
+		// Mengisi tag html prifle tentang
+		$('#isi').append(' <p data-aos="fade-up" ><h2>Struktur</h2><br>Susunan organisasi BNN terdiri atas:<ul data-aos="fade-up"><li>Kepala</li><li>Sekretariat Utama</li><li>Inspektorat Utama</li><li>Deputi Bidang Pencegahan</li><li>Deputi Bidang Pemberdayaan Masyarakat</li><li>Deputi Bidang Pemberantasan</li><li>Deputi Bidang Rehabilitasi</li><li>Deputi Bidang Hukum dan Kerja Sama</li><li>Pusat Penelitian, Data, dan Informasi</li><li>Pusat Pengembangan Sumber Daya Manusia</li><li>Pusat Laboratorium</li><li>Balai Besar Rehabilitasi</li><li>Instansi vertikal:</li><ul><li>Badan Narkotika Nasional Provinsi (BNNP)</li><li>Badan Narkotika Nasional Kabupaten/Kota (BNNK)</li></ul></ul></p>');
+
+		$('.list-group-item').removeClass('active');
+		$('.struktur').addClass('active');
+	})
+});

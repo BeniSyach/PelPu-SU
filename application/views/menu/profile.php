@@ -29,79 +29,9 @@
                 </div>
             </div>
             <div class="col-md-7 text-justify" id="isi">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem similique, ipsum quia voluptate nostrum quam dolorum dolor, aut deserunt, beatae perferendis quo necessitatibus reprehenderit enim tempore ut minima? Eos, harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non neque cumque asperiores quasi sit quod tempore quaerat dignissimos fugit. Facere dolorem, consectetur tempore eum adipisci accusamus eligendi quia aperiam nemo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, soluta cupiditate? Consectetur, accusamus itaque. Autem totam ipsa tempore at, mollitia, animi harum exercitationem laudantium similique commodi, temporibus voluptatem suscipit in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis veritatis porro blanditiis omnis excepturi suscipit nulla quasi, deserunt quas natus neque vel ipsam fugiat ab corporis magnam aut explicabo? Exercitationem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis non quas et dolorum? Iure, dolorem assumenda laboriosam, fuga molestias amet consequuntur quibusdam maiores quia consequatur nobis quas soluta! Ipsum, aperiam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur mollitia doloribus quod aspernatur laborum fuga reiciendis beatae. Iusto officiis repudiandae possimus. Delectus esse perferendis cumque sunt earum? Quidem, possimus porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestiae illo officiis error repudiandae fugiat sit eos! Fugit facilis maiores maxime explicabo unde, laborum officia nihil, temporibus earum consequatur libero?</p>
+                <p> Badan Narkotika Nasional (disingkat BNN) adalah sebuah Lembaga Pemerintah Non Kementerian (LPNK) Indonesia yang mempunyai tugas melaksanakan tugas pemerintahan di bidang pencegahan, pemberantasan penyalahgunaan dan peredaran gelap narkotika, psikotropika, prekursor dan bahan adiktif lainnya kecuali bahan adiktif untuk tembakau dan alkohol. BNN dipimpin oleh seorang kepala yang bertanggung jawab langsung kepada Presiden. <br><br>Dasar hukum BNN adalah Undang-Undang Nomor 35 tahun 2009 tentang Narkotika. Sebelumnya, BNN merupakan lembaga nonstruktural yang dibentuk berdasarkan Keputusan Presiden Nomor 17 Tahun 2002, yang kemudian diganti dengan Peraturan Presiden Nomor 83 Tahun 2007.<br><br>Sejarah <br><br>Sejarah penanggulangan bahaya narkotika dan kelembagaannya di Indonesia dimulai tahun 1971 pada saat dikeluarkannya Instruksi Presiden Republik Indonesia (Inpres) Nomor 6 Tahun 1971 kepada Kepala Badan Koordinasi Intelijen Nasional (BAKIN) untuk menanggulangi 6 (enam) permasalahan nasional yang menonjol, yaitu pemberantasan uang palsu, penanggulangan penyalahgunaan narkoba, penanggulangan penyelundupan, penanggulangan kenakalan remaja, penanggulangan subversi, pengawasan orang asing.<br><br>Berdasarkan Inpres tersebut Kepala BAKIN membentuk Bakolak Inpres Tahun 1971 yang salah satu tugas dan fungsinya adalah menanggulangi bahaya narkoba. Bakolak Inpres adalah sebuah badan koordinasi kecil yang beranggotakan wakil-wakil dari Departemen Kesehatan, Departemen Sosial, Departemen Luar Negeri, Kejaksaan Agung, dan lain-lain, yang berada di bawah komando dan bertanggung jawab kepada Kepala BAKIN. Badan ini tidak mempunyai wewenang operasional dan tidak mendapat alokasi anggaran sendiri dari ABPN melainkan disediakan berdasarkan kebijakan internal BAKIN.<br><br>Pada masa itu, permasalahan narkoba di Indonesia masih merupakan permasalahan kecil dan Pemerintah Orde Baru terus memandang dan berkeyakinan bahwa permasalahan narkoba di Indonesia tidak akan berkembang karena bangsa Indonesia adalah bangsa yang ber-Pancasila dan agamis. Pandangan ini ternyata membuat pemerintah dan seluruh bangsa Indonesia lengah terhadap ancaman bahaya narkoba, sehingga pada saat permasalahan narkoba meledak dengan dibarengi krisis mata uang regional pada pertengahan tahun 1997, pemerintah dan bangsa Indonesia seakan tidak siap untuk menghadapinya, berbeda dengan Singapura, Malaysia dan Thailand yang sejak tahun 1970 secara konsisten dan terus menerus memerangi bahaya narkoba.<br><br>Menghadapi permasalahan narkoba yang berkecenderungan terus meningkat, Pemerintah dan Dewan Perwakilan Rakyat Republik Indonesia (DPR-RI) mengesahkan Undang-Undang Nomor 5 Tahun 1997 tentang Psikotropika dan Undang-Undang Nomor 22 Tahun 1997 tentang Narkotika. Berdasarkan kedua Undang-undang tersebut, Pemerintah (Presiden Abdurahman Wahid) membentuk Badan Koordinasi Narkotika Nasional (BKNN), dengan Keputusan Presiden Nomor 116 Tahun 1999. BKNN adalah suatu Badan Koordinasi penanggulangan narkoba yang beranggotakan 25 Instansi Pemerintah terkait.<br><br>BKNN diketuai oleh Kepala Kepolisian Republik Indonesia (Kapolri) secara ex-officio. Sampai tahun 2002 BKNN tidak mempunyai personel dan alokasi anggaran sendiri. Anggaran BKNN diperoleh dan dialokasikan dari Markas Besar Kepolisian Negara Republik Indonesia (Mabes Polri), sehingga tidak dapat melaksanakan tugas dan fungsinya secara maksimal.<br><br>BKNN sebagai badan koordinasi dirasakan tidak memadai lagi untuk menghadapi ancaman bahaya narkoba yang makin serius. Oleh karenanya berdasarkan Keputusan Presiden Nomor 17 Tahun 2002 tentang Badan Narkotika Nasional, BKNN diganti dengan Badan Narkotika Nasional (BNN). BNN, sebagai sebuah lembaga forum dengan tugas mengoordinasikan 25 instansi pemerintah terkait dan ditambah dengan kewenangan operasional, mempunyai tugas dan fungsi: 1. mengoordinasikan instansi pemerintah terkait dalam perumusan dan pelaksanaan kebijakan nasional penanggulangan narkoba; dan 2. mengoordinasikan pelaksanaan kebijakan nasional penanggulangan narkoba.<br><br>Mulai tahun 2003 BNN baru mendapatkan alokasi anggaran dari APBN. Dengan alokasi anggaran APBN tersebut, BNN terus berupaya meningkatkan kinerjanya bersama-sama dengan BNP dan BNK. Namun karena tanpa struktur kelembagaan yang memilki jalur komando yang tegas dan hanya bersifat koordinatif (kesamaan fungsional semata), maka BNN dinilai tidak dapat bekerja optimal dan tidak akan mampu menghadapi permasalahan narkoba yang terus meningkat dan makin serius. Oleh karena itu pemegang otoritas dalam hal ini segera menerbitkan Peraturan Presiden Nomor 83 Tahun 2007 tentang Badan Narkotika Nasional, Badan Narkotika Provinsi (BNP) dan Badan Narkotika Kabupaten/Kota (BNK), yang memiliki kewenangan operasional melalui kewenangan Anggota BNN terkait dalam satuan tugas, yang mana BNN-BNP-BNKab/Kota merupakan mitra kerja pada tingkat nasional, provinsi dan kabupaten/kota yang masing-masing bertanggung jawab kepada Presiden, Gubernur dan Bupati/Walikota, dan yang masing-masing (BNP dan BN Kab/Kota) tidak mempunyai hubungan struktural-vertikal dengan BNN.<br><br>Merespon perkembangan permasalahan narkoba yang terus meningkat dan makin serius, maka Ketetapan MPR-RI Nomor VI/MPR/2002 melalui Sidang Umum Majelis Permusyawaratan Rakyat Republik Indonesia (MPR-RI) Tahun 2002 telah merekomendasikan kepada DPR-RI dan Presiden RI untuk melakukan perubahan atas Undang-Undang Nomor 22 Tahun 1997 tentang Narkotika. Oleh karena itu, Pemerintah dan DPR-RI mengesahkan dan mengundangkan Undang-Undang Nomor 35 Tahun 2009 tentang Narkotika, sebagai perubahan atas UU Nomor 22 Tahun 1997. Berdasarkan UU Nomor 35 Tahun 2009 tersebut, BNN diberikan kewenangan penyelidikan dan penyidikan tindak pidana narkotika dan prekursor narkotika. Yang diperjuangkan BNN saat ini adalah cara untuk MEMISKINKAN para bandar atau pengedar narkoba, karena disinyalir dan terbukti pada beberapa kasus penjualan narkoba sudah digunakan untuk pendanaan teroris (Narco Terrorism) dan juga untuk menghindari kegiatan penjualan narkoba untuk biaya politik (Narco for Politic).</p>
             </div>
         </div>
     </div>
-
-    <div class="container-fluid">
-        <div class="row mt-5 justify-content-center">
-            <div class="col-md-10 text-center">
-                <h1>Berita Terbaru</h1>
-                <h3>Berita Harian Badan Narkotika Nasional</h3>
-                <div class="border-bottom border-dark my-3 "></div>
-            </div>
-
-        </div>
-    </div>
-
-    <div data-aos="fade-up">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-4 my-2">
-                    <div class="card">
-                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-2 ">
-                    <div class="card">
-                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-2 ">
-                    <div class="card">
-                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-2 ">
-                    <div class="card">
-                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-2 ">
-                    <div class="card">
-                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
 
     </div>
