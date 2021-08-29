@@ -1,10 +1,45 @@
 <!-- Footer -->
 <footer class="sticky-footer bg-success">
     <div class="container my-auto">
-        <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Pelayanan Publik 2021</span>
+        <div class="row">
+            <div class="col">
+                <div class="row mt-3">
+                    <h5>Kontak</h5>
+                </div>
+                <div class="row">
+                    <h5>Badan Narkotika Nasional</h5>
+                </div>
+                <div class="row">
+                    <i class="fas fa-fw fa-map-marker-alt fa-lg mr-2"></i>
+                    <p> Jl. Williem Iskandar Pasar V Barat I No. 1-A Medan Estate</p>
+                </div>
+                <div class="row">
+                    <i class="fas fa-fw fa-comment-dots fa-lg mr-2"></i>
+                    <p> Call Center: 184</p>
+                </div>
+                <div class="row">
+                    <i class="fas fa-fw fa-comment-dots fa-lg mr-2"></i>
+                    <p> +62 (21) 8087-1566 | +62 (21) 8087-1567</p>
+                </div>
+                <div class="row">
+                    <i class="fas fa-fw fa-comment-dots fa-lg mr-2"></i>
+                    <a href="">
+                        <p>Hubungi Kami</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row mt-3">
+                    <h5>Unit Kerja</h5>
+                </div>
+            </div>
         </div>
+
     </div>
+    <div class="copyright text-center my-auto">
+        <span>Copyright &copy; Pelayanan Publik 2021</span>
+    </div>
+
 </footer>
 <!-- End of Footer -->
 
@@ -30,14 +65,15 @@
                 <hr>
                 <div class="row">
                     <div class="col">
-                        <form action="" method="POST">
+                        <?= $this->session->flashdata('message'); ?>
+                        <form action="<?= base_url() ?>auth" method="POST">
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan Email Anda....">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan Email Anda...."><?= form_error('Nama', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
                             <div class="form-group">
                                 <label for="password">Password</label>
-                                <input type="password" class="form-control" id="password" name="email" placeholder="Masukkkan Password Anda...">
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Masukkkan Password Anda..."><?= form_error('Nama', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
                             <div class="form-group">
                                 <a class="badge badge-warning" href="">Lupa Password</a>
@@ -126,12 +162,15 @@
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
 <!-- script animasi -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
 <script src="<?= base_url('assets/js/Script.js') ?>"></script>
+
 
 <!-- Option 2: Separate Popper and Bootstrap JS -->
 <!--

@@ -22,56 +22,19 @@
     <div data-aos="fade-up">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-4 my-2">
-                    <div class="card">
-                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                <?php foreach ($berita as $brt) : ?>
+                    <div class="col-md-4 my-2">
+                        <div class="card">
+                            <img src="<?= $brt['foto'] ?>" class="card-img-top img-hover-zoom">
+                            <div class="card-body">
+                                <p><?= date('l, d-m-Y', strtotime($brt['tanggal'])) ?></p>
+                                <h5 class="card-title"><?= $brt['judul'] ?></h5>
+                                <p class="card-text"><a href="http://bnn.go.id">BNN.GO.ID</a><?= substr($brt['isi'], 0, 150) ?>..... </p>
+                                <a href="<?= base_url('berita/detail_berita/' . $brt['id']) ?>" class="btn btn-primary">Baca Selanjutnya</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 my-2 ">
-                    <div class="card">
-                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-2 ">
-                    <div class="card">
-                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-2 ">
-                    <div class="card">
-                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-2 ">
-                    <div class="card">
-                        <img src="<?= base_url('assets/img/poster.jpg') ?>" class="card-img-top img-hover-zoom">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>

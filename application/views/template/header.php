@@ -5,6 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/id/c/cf/Logo_BNN.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -114,16 +115,16 @@
 
                     <a class="btn btn-primary tombol" href="#" type="button" data-toggle="modal" data-target="#login">LOGIN</a>
 
-                    <a class="nav-link ml-5 button2" href="">
+                    <a class="nav-link ml-5 button2" href="https://www.facebook.com/bnnpsumut/">
                         <i class="fab fa-facebook-f fa-lg"></i>
                     </a>
-                    <a class="nav-link button3" href="">
+                    <a class="nav-link button3" href="https://twitter.com/bnnpsumut">
                         <i class="fab fa-twitter fa-lg"></i>
                     </a>
-                    <a class="nav-link button4" href="">
+                    <a class="nav-link button4" href="https://www.instagram.com/infobnn_prov_sumaterautara/">
                         <i class="fab fa-instagram fa-lg"></i>
                     </a>
-                    <a class="nav-link button5" href="">
+                    <a class="nav-link button5" href="https://sumut.bnn.go.id/feed/rss/">
                         <i class="fas fa-envelope fa-lg"></i>
                     </a>
                     <div class="border-right mx-3 "></div>
