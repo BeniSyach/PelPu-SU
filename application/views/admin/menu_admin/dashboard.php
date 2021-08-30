@@ -11,7 +11,7 @@
               <div class="col-md-5 pr-1">
                 <div class="form-group">
                   <label>Company (disabled)</label>
-                  <input type="text" class="form-control" disabled="" placeholder="Company" value="Creative Code Inc.">
+                  <input type="text" class="form-control" disabled="" placeholder="Company" value="BNN SUMATERA UTARA">
                 </div>
               </div>
               <div class="col-md-3 px-1">
@@ -69,14 +69,19 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
                   <label>About Me</label>
                   <textarea rows="4" cols="80" class="form-control" placeholder="Here can be your description" value="Mike">Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</textarea>
                 </div>
               </div>
-            </div>
+            </div> -->
+            <a href="#">
+              <button class="btn btn-primary btn-block btn-icon btn-lg">
+                Ubah Profile
+              </button>
+            </a>
           </form>
         </div>
       </div>
@@ -97,20 +102,21 @@
             </p>
           </div>
           <p class="description text-center">
-            "Lamborghini Mercy <br>
-            Your chick she so thirsty <br>
-            I'm in that two seat Lambo"
+            "Badan Narkotika Nasional Republik Indonesia Provinsi Sumatera Utara. <br>
+            Jl. Williem Iskandar Pasar V Barat I No. 1-A Medan Estate. <br>
+            184 (061) 800-3282"
           </p>
+
         </div>
         <hr>
         <div class="button-container">
-          <button href="#" class="btn btn-neutral btn-icon btn-round btn-lg">
+          <button href="https://www.facebook.com/bnnpsumut/" class="btn btn-neutral btn-icon btn-round btn-lg">
             <i class="fab fa-facebook-f"></i>
           </button>
-          <button href="#" class="btn btn-neutral btn-icon btn-round btn-lg">
+          <button href="https://twitter.com/bnnpsumut" class="btn btn-neutral btn-icon btn-round btn-lg">
             <i class="fab fa-twitter"></i>
           </button>
-          <button href="#" class="btn btn-neutral btn-icon btn-round btn-lg">
+          <button href="https://sumut.bnn.go.id/feed/rss/" class="btn btn-neutral btn-icon btn-round btn-lg">
             <i class="fab fa-google-plus-g"></i>
           </button>
         </div>

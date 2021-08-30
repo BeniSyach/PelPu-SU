@@ -1,3 +1,34 @@
+<footer class="footer">
+    <div class=" container-fluid ">
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://sumut.bnn.go.id/">
+                        BNN Sumatera Utara
+                    </a>
+                </li>
+                <li>
+                    <a href="https://sumut.bnn.go.id/sejarah/">
+                        Tentang Kami
+                    </a>
+                </li>
+                <li>
+                    <a href="https://sumut.bnn.go.id/visi-dan-misi-bnn/">
+                        Visi Dan Misi
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="copyright" id="copyright">
+            &copy; <script>
+                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+            </script>, Designed by <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by <a href="https://sumut.bnn.go.id/" target="_blank">BNN SUMUT</a>.
+        </div>
+    </div>
+</footer>
+</div>
+</div>
+
 <!--   Core JS Files   -->
 <script src="<?= base_url('assets/js/core/jquery.min.js') ?>"></script>
 <script src="<?= base_url('assets/js/core/popper.min.js') ?>"></script>

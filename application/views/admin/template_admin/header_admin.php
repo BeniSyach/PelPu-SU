@@ -43,10 +43,10 @@
         Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
     -->
             <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-
+                <a href="https://sumut.bnn.go.id/" class="simple-text logo-mini">
+                    <img src="https://upload.wikimedia.org/wikipedia/id/c/cf/Logo_BNN.png" alt="">
                 </a>
-                <a href="http://www.creative-tim.com" class="simple-text logo-normal">
+                <a href="https://sumut.bnn.go.id/" class="simple-text logo-normal">
                     ADMIN BNN SUMUT
                 </a>
             </div>
@@ -125,13 +125,13 @@
                                     </p>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <a class="dropdown-item" href="#">Ubah Kata Sandi</a>
+                                    <a class="dropdown-item" href="#">Pengaturan</a>
+                                    <a class="dropdown-item" href="#">Keluar / Logout</a>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#pablo">
+                                <a class="nav-link" href="<?= base_url('admin') ?>">
                                     <i class="now-ui-icons users_single-02"></i>
                                     <p>
                                         <span class="d-lg-none d-md-block">Account</span>
