@@ -6,6 +6,9 @@ class Admin extends CI_Controller
 
     public function index()
     {
+        $data['user'] = $this->db->get_where('user', [
+            'email' => $this->session->userdata('email')
+        ])->row_array();
         $data['title'] = 'Dashboard Admin - Pelayanan Publik Sumatera Utara';
         $this->load->view('admin/template_admin/header_admin', $data);
         $this->load->view('admin/menu_admin/dashboard', $data);

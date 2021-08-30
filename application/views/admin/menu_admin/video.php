@@ -21,7 +21,7 @@
                                 <?php foreach ($video as $vd) : ?>
                                     <tr>
                                         <td><?= $i++  ?></td>
-                                        <td>
+                                        <td style="width: 20%;">
                                             <div class="embed-responsive embed-responsive-16by9">
                                                 <iframe class="embed-responsive-item" src="<?= base_url('assets/img/video/' . $vd['url']) ?>" allowfullscreen></iframe>
                                             </div>

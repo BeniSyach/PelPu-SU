@@ -12,7 +12,7 @@
              <div class="col col-md-8">
                  <h2><?= $berita['judul'] ?></h2>
                  <div class="row mt-5">
-                     <img src="<?= $berita['foto'] ?>" width="100%" alt="">
+                     <img src="<?= base_url('assets/img/foto/' . $berita['foto']) ?>" width="100%" alt="">
                  </div>
                  <div class="row mt-5">
                      <p><a href="http://bnn.go.id">BNN.GO.ID</a><?= $berita['isi'] ?></p>
@@ -26,7 +26,7 @@
                          <div class="card" style="max-width: none;">
                              <div class="row no-gutters">
                                  <div class="col">
-                                     <img src="<?= $smbrt['foto'] ?>" class="card-img" alt="..." height="100px" class="mx-2">
+                                     <img src="<?= base_url('assets/img/foto/' . $smbrt['foto']) ?>" class="card-img" alt="..." height="100px" class="mx-2">
                                  </div>
                                  <div class="col-md-8">
                                      <div class="card-body">

@@ -25,7 +25,6 @@
                                         <td><img src="<?= base_url('assets/img/foto/' . $ft['url']) ?>" width="50%" alt=""></td>
                                         <td><?= $ft['judul'] ?></td>
                                         <td><?= substr($ft['deskripsi'], 0, 80)  ?>.....</td>
-                                        <td><?= $ft['foto'] ?></td>
                                         <td><?= date('l, d-m-Y', strtotime($ft['tanggal'])) ?></td>
                                         <td><a href="<?= base_url('admin/ubah_foto/' . $ft['id']) ?>"><button type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
                                                     <i class="now-ui-icons ui-2_settings-90"></i>

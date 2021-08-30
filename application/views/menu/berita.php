@@ -25,7 +25,7 @@
                 <?php foreach ($berita as $brt) : ?>
                     <div class="col-md-4 my-2">
                         <div class="card">
-                            <img src="<?= $brt['foto'] ?>" class="card-img-top img-hover-zoom">
+                            <img src="<?= base_url('assets/img/foto/' . $brt['foto']) ?>" class="card-img-top img-hover-zoom">
                             <div class="card-body">
                                 <p><?= date('l, d-m-Y', strtotime($brt['tanggal'])) ?></p>
                                 <h5 class="card-title"><?= $brt['judul'] ?></h5>

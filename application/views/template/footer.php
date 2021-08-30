@@ -18,11 +18,11 @@
                     <p> Call Center: 184</p>
                 </div>
                 <div class="row">
-                    <i class="fas fa-fw fa-comment-dots fa-lg mr-2"></i>
+                    <i class="fas fa-fw fa-phone fa-lg mr-2"></i>
                     <p> +62 (21) 8087-1566 | +62 (21) 8087-1567</p>
                 </div>
                 <div class="row">
-                    <i class="fas fa-fw fa-comment-dots fa-lg mr-2"></i>
+                    <i class="fas fa-fw fa-envelope fa-lg mr-2"></i>
                     <a href="">
                         <p>Hubungi Kami</p>
                     </a>

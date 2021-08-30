@@ -17,13 +17,13 @@
               <div class="col-md-3 px-1">
                 <div class="form-group">
                   <label>Username</label>
-                  <input type="text" class="form-control" placeholder="Username" value="michael23">
+                  <input type="text" class="form-control" placeholder="Username" value="<?= $user['nama'] ?>">
                 </div>
               </div>
               <div class="col-md-4 pl-1">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" placeholder="Email">
+                  <input type="email" class="form-control" placeholder="Email" value="<?= $user['email'] ?>">
                 </div>
               </div>
             </div>
@@ -31,17 +31,17 @@
               <div class="col-md-6 pr-1">
                 <div class="form-group">
                   <label>First Name</label>
-                  <input type="text" class="form-control" placeholder="Company" value="Mike">
+                  <input type="text" class="form-control" placeholder="Company" value="<?= $user['nama'] ?>">
                 </div>
               </div>
               <div class="col-md-6 pl-1">
                 <div class="form-group">
-                  <label>Last Name</label>
-                  <input type="text" class="form-control" placeholder="Last Name" value="Andrew">
+                  <label>Password</label>
+                  <input type="password" class="form-control" placeholder="password" value="<?= $user['password'] ?>">
                 </div>
               </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
                   <label>Address</label>
@@ -68,7 +68,7 @@
                   <input type="number" class="form-control" placeholder="ZIP Code">
                 </div>
               </div>
-            </div>
+            </div> -->
             <!-- <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
@@ -95,11 +95,8 @@
           <div class="author">
             <a href="#">
               <img class="avatar border-gray" src="https://cdn-2.tstatic.net/suryamalang/foto/bank/images/logo-bnn-badan-narkotika-nasional_20181102_095230.jpg" alt="...">
-              <h5 class="title">Mike Andrew</h5>
+              <h5 class="title"><?= $user['nama'] ?></h5>
             </a>
-            <p class="description">
-              michael24
-            </p>
           </div>
           <p class="description text-center">
             "Badan Narkotika Nasional Republik Indonesia Provinsi Sumatera Utara. <br>

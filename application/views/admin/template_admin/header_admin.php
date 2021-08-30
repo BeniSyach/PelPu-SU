@@ -127,7 +127,7 @@
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item" href="#">Ubah Kata Sandi</a>
                                     <a class="dropdown-item" href="#">Pengaturan</a>
-                                    <a class="dropdown-item" href="#">Keluar / Logout</a>
+                                    <a class="dropdown-item" href="<?= base_url('auth/logout') ?>">Keluar / Logout</a>
                                 </div>
                             </li>
                             <li class="nav-item">
