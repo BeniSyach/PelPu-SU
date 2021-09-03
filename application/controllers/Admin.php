@@ -26,11 +26,24 @@ class Admin extends CI_Controller
 
     public function tambah_berita()
     {
+
+
+        $data['title'] = 'Form Tambah Berita - Pelayanan Publik Sumatera Utara';
+        $this->load->view('admin/template_admin/header_admin', $data);
+        $this->load->view('admin/menu_admin/tambah_berita', $data);
+        $this->load->view('admin/template_admin/footer_admin');
     }
 
     public function Ubah_berita($id)
     {
+        $data['berita'] = $this->db->get_where('berita', ['id' => $id])->row_array();
+
+        $data['title'] = 'Form Ubah Berita - Pelayanan Publik Sumatera Utara';
+        $this->load->view('admin/template_admin/header_admin', $data);
+        $this->load->view('admin/menu_admin/ubah_berita', $data);
+        $this->load->view('admin/template_admin/footer_admin');
     }
+
 
     public function hapus_berita($id)
     {
@@ -48,10 +61,20 @@ class Admin extends CI_Controller
 
     public function tambah_foto()
     {
+        $data['title'] = 'Form Tambah Foto - Pelayanan Publik Sumatera Utara';
+        $this->load->view('admin/template_admin/header_admin', $data);
+        $this->load->view('admin/menu_admin/tambah_foto', $data);
+        $this->load->view('admin/template_admin/footer_admin');
     }
 
     public function ubah_foto($id)
     {
+        $data['foto'] = $this->db->get_where('foto', ['id' => $id])->row_array();
+
+        $data['title'] = 'Form Ubah Foto - Pelayanan Publik Sumatera Utara';
+        $this->load->view('admin/template_admin/header_admin', $data);
+        $this->load->view('admin/menu_admin/Ubah_foto', $data);
+        $this->load->view('admin/template_admin/footer_admin');
     }
 
     public function hapus_foto($id)
@@ -70,10 +93,20 @@ class Admin extends CI_Controller
 
     public function tambah_video()
     {
+        $data['title'] = 'Tambah Video - Pelayanan Publik Sumatera Utara';
+        $this->load->view('admin/template_admin/header_admin', $data);
+        $this->load->view('admin/menu_admin/tambah_video', $data);
+        $this->load->view('admin/template_admin/footer_admin');
     }
 
     public function ubah_video($id)
     {
+        $data['video'] = $this->db->get_where('video', ['id' => $id])->row_array();
+
+        $data['title'] = 'Tambah Video - Pelayanan Publik Sumatera Utara';
+        $this->load->view('admin/template_admin/header_admin', $data);
+        $this->load->view('admin/menu_admin/ubah_video', $data);
+        $this->load->view('admin/template_admin/footer_admin');
     }
 
     public function hapus_video($id)

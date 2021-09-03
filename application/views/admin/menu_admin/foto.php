@@ -4,7 +4,7 @@
             <div class="card">
                 <div class="card-header">
                     <h4 class="card-title">Table Foto</h4>
-                    <a href="<?php base_url('admin/tambah_foto') ?>"><button class="btn btn-primary">Tambah Foto</button></a>
+                    <a href="<?= base_url('admin/tambah_foto') ?>"><button class="btn btn-primary">Tambah Foto</button></a>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">

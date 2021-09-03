@@ -3,8 +3,8 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    <h4 class="card-title">Table Menu Berita</h4>
-                    <a href="<?php base_url('admin/tambah_berita') ?>"><button class="btn btn-primary">Tambah Berita</button></a>
+                    <h4 class="card-title">Menu Berita</h4>
+                    <a href="<?= base_url('admin/tambah_berita') ?>"><button class="btn btn-primary">Tambah Berita</button></a>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
