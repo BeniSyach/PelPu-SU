@@ -1,0 +1,396 @@
+/* navbar */
+body {
+	font-family: Viga;
+}
+
+.navbar-brand {
+	font-family: Viga;
+	font-size: 32px;
+}
+
+.nav-link {
+	font-family: Viga;
+	text-transform: uppercase;
+	margin-right: 5px;
+	font-size: small;
+}
+
+.tombol {
+	text-transform: uppercase;
+	border-radius: 40px;
+	font-family: Viga;
+	font-size: small;
+}
+
+.menu-utama {
+	background-image: url(../img/banner.gif);
+	height: 750px;
+}
+
+.berita {
+	background-image: url(../img/berita.jpg);
+	height: 100%;
+	background-size: cover;
+}
+
+.profile {
+	background-image: url(../img/profile.jpg);
+	height: 200%;
+	background-size: cover;
+}
+
+.jumbotron .display-4 {
+	color: white;
+	font-family: Viga;
+	margin-top: 20px;
+}
+
+.jumbotron p {
+	color: white;
+	font-family: Viga;
+}
+
+.jumbotron img {
+	margin-top: 150px;
+}
+
+hr {
+	height: 0.5px;
+	width: 70%;
+	color: rgb(255, 253, 253);
+	background-color: rgb(243, 243, 243);
+}
+
+.fas,
+.fab {
+	color: #c8e4e4;
+}
+
+/* versi Mobile */
+@media only screen and (max-width: 900px) {
+	.navbar {
+		background-color: lightblue;
+	}
+
+	i {
+		position: relative;
+	}
+}
+
+.dropdown-menu {
+	display: none;
+	position: relative;
+	background-color: lightblue;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+	opacity: 0.7;
+	font-size: small;
+}
+
+/* Versi Desktop */
+@media (min-width: 992px) {
+	.nav-link {
+		font-family: Viga;
+		text-transform: uppercase;
+		margin-right: 5px;
+	}
+
+	.navigasi:hover::after {
+		border-bottom: 2px solid white;
+		content: "";
+		display: block;
+		width: 70%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -7px;
+	}
+
+	.jumbotron {
+		margin-top: -75px;
+	}
+
+	.navbar-brand,
+	.nav-link {
+		color: whitesmoke !important;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	}
+
+	.dropdown-menu {
+		display: none;
+		position: relative;
+		background-color: #2b2929;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+		z-index: 1;
+		opacity: 0.7;
+	}
+
+	.dropdown-menu a {
+		text-decoration: none;
+		display: block;
+		color: white;
+	}
+
+	.dropdown-item {
+		font-family: Viga;
+	}
+
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+
+	.navbar {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	.shrink .navbar {
+		position: fixed;
+		background-color: rgba(146, 146, 146, 0.8);
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	}
+
+	.aktif::after {
+		border-bottom: 2px solid white;
+		content: "";
+		display: block;
+		width: 70%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -7px;
+	}
+
+	.img-hover-zoom {
+		width: 100%;
+		max-width: 500px;
+		height: 300px;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+
+	.img-hover-zoom img {
+		transition: transform 0.5s ease;
+		object-fit: cover;
+		width: 100%;
+		max-width: 500px;
+		height: 300px;
+	}
+
+	.img-hover-zoom:hover img {
+		transform: scale(1.5);
+	}
+
+	.button2 {
+		color: rgba(255, 255, 255, 1);
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		transition: all 0.5s;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.button2 a {
+		color: rgba(51, 51, 51, 1);
+		text-decoration: none;
+		display: block;
+	}
+
+	.button2 i {
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button2:hover > i {
+		opacity: 0;
+		-webkit-transform: translate(0px, -40px);
+		transform: translate(0px, -40px);
+	}
+
+	.button2::after {
+		font-family: "Font Awesome 5 Brands";
+		font-size: large;
+		content: "\f39e";
+		position: absolute;
+		left: 30%;
+		top: 1%;
+		color: rgb(252, 252, 253);
+		opacity: 0;
+		-webkit-transform: translate(0, 30%);
+		transform: translate(0, 30%);
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button2:hover::after {
+		opacity: 1;
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	.button3 {
+		color: rgba(255, 255, 255, 1);
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		transition: all 0.5s;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.button3 a {
+		color: rgba(51, 51, 51, 1);
+		text-decoration: none;
+		display: block;
+	}
+
+	.button3 i {
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button3:hover > i {
+		opacity: 0;
+		-webkit-transform: translate(0px, -40px);
+		transform: translate(0px, -40px);
+	}
+
+	.button3::after {
+		font-family: "Font Awesome 5 Brands";
+		font-size: large;
+		content: "\f099";
+		position: absolute;
+		left: 30%;
+		top: 1%;
+		color: rgb(252, 252, 253);
+		opacity: 0;
+		-webkit-transform: translate(0, 30%);
+		transform: translate(0, 30%);
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button3:hover::after {
+		opacity: 1;
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	.button4 {
+		color: rgba(255, 255, 255, 1);
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		transition: all 0.5s;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.button4 a {
+		color: rgba(51, 51, 51, 1);
+		text-decoration: none;
+		display: block;
+	}
+
+	.button4 i {
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button4:hover > i {
+		opacity: 0;
+		-webkit-transform: translate(0px, -40px);
+		transform: translate(0px, -40px);
+	}
+
+	.button4::after {
+		font-family: "Font Awesome 5 Brands";
+		font-size: large;
+		content: "\f16d";
+		position: absolute;
+		left: 30%;
+		top: 1%;
+		color: rgb(252, 252, 253);
+		opacity: 0;
+		-webkit-transform: translate(0, 30%);
+		transform: translate(0, 30%);
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button4:hover::after {
+		opacity: 1;
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	.button5 {
+		color: rgba(255, 255, 255, 1);
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		transition: all 0.5s;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.button5 a {
+		color: rgba(51, 51, 51, 1);
+		text-decoration: none;
+		display: block;
+	}
+
+	.button5 i {
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button5:hover > i {
+		opacity: 0;
+		-webkit-transform: translate(0px, -40px);
+		transform: translate(0px, -40px);
+	}
+
+	.button5::after {
+		font-family: "Font Awesome 5 Brands";
+		font-size: large;
+		content: "\f39f";
+		position: absolute;
+		left: 30%;
+		top: 1%;
+		color: rgb(252, 252, 253);
+		opacity: 0;
+		-webkit-transform: translate(0, 30%);
+		transform: translate(0, 30%);
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.button5:hover::after {
+		opacity: 1;
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	.button6 i:hover::after {
+		color: rgb(252, 252, 253);
+	}
+}
