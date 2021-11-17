@@ -13,13 +13,15 @@ class Auth extends CI_Controller
     public function index()
     {
         if ($this->session->userdata('email')) {
-            redirect('user');
+            redirect('admin');
         }
         $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email');
         $this->form_validation->set_rules('password', 'Password', 'required|trim');
         if ($this->form_validation->run() == false) {
             $data['title'] = 'Pelayanan Publik Sumatera Utara';
+            $data['active'] = 'menu';
             $this->load->view('template/header', $data);
+            $this->load->view('template/navbar', $data);
             $this->load->view('menu/menu_utama', $data);
             $this->load->view('template/footer');
         } else {
@@ -37,6 +39,7 @@ class Auth extends CI_Controller
                 // cek password
                 if ($password == $user['password']) {
                     $data = [
+                        'id_user' => $user['id_user'],
                         'email' => $user['email'],
                         'level' => $user['level']
                     ];
@@ -83,7 +86,7 @@ class Auth extends CI_Controller
 
     public function blocked()
     {
-        $this->load->view('auth/blocked');
+        $this->load->view('index');
     }
 
     public function lupa_password()

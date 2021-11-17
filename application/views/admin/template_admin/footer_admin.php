@@ -48,6 +48,10 @@
         // Javascript method's body can be found in assets/js/demos.js
         demo.initDashboardPageCharts();
 
+        document.addEventListener('trix-file-accept', function(e) {
+            e.preventDefault();
+        })
+
     });
 </script>
 </body>

@@ -34,14 +34,20 @@
     <link href="<?= base_url('assets/css/now-ui-dashboard.css?v=1.5.0') ?>" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="<?= base_url('assets/demo/demo.css') ?>" rel="stylesheet" />
+
+    <!-- Trix Editor -->
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/frontend/css/trix.css') ?>">
+    <script type="text/javascript" src="<?= base_url('assets/frontend/js/trix.js') ?>"></script>
+    <style>
+        trix-toolbar [data-trix-button-group="file-tools"] {
+            display: none;
+        }
+    </style>
 </head>
 
 <body class="user-profile">
     <div class="wrapper ">
         <div class="sidebar" data-color="green">
-            <!--
-        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
-    -->
             <div class="logo">
                 <a href="https://sumut.bnn.go.id/" class="simple-text logo-mini">
                     <img src="https://upload.wikimedia.org/wikipedia/id/c/cf/Logo_BNN.png" alt="">
@@ -52,33 +58,70 @@
             </div>
             <div class="sidebar-wrapper" id="sidebar-wrapper">
                 <ul class="nav">
-                    <li class="active ">
+                    <li class="<?php if ($active == "user") {
+                                    echo 'active';
+                                } ?>">
                         <a href="<?= base_url('admin') ?>">
                             <i class="now-ui-icons users_single-02"></i>
                             <p>User Profile</p>
                         </a>
-                    <li class="active ">
+                    </li>
+                    <?php if ($this->session->userdata('email') == "admin@gmail.com") : ?>
+                        <li class="<?php if ($active == "listuser") {
+                                        echo 'active';
+                                    } ?>">
+                            <a href="<?= base_url('admin/listuser') ?>">
+                                <i class="now-ui-icons users_circle-08"></i>
+                                <p>List User</p>
+                            </a>
+                        </li>
+                        <li class="<?php if ($active == "tambahuser") {
+                                        echo 'active';
+                                    } ?>">
+                            <a href=" <?= base_url('admin/tambahuser') ?>">
+                                <i class="now-ui-icons ui-1_simple-add"></i>
+                                <p>Tambah User</p>
+                            </a>
+                        </li>
+                    <?php endif ?>
+                    <li class="<?php if ($active == "berita") {
+                                    echo 'active';
+                                } ?>">
                         <a href="<?= base_url('admin/berita') ?>">
                             <i class="now-ui-icons education_paper"></i>
                             <p>Berita</p>
                         </a>
                     </li>
-                    <li class="active ">
+                    <li class="<?php if ($active == "foto") {
+                                    echo 'active';
+                                } ?>">
                         <a href="<?= base_url('admin/foto') ?>">
                             <i class="now-ui-icons design_image"></i>
                             <p>Foto</p>
                         </a>
                     </li>
-                    <li class="active ">
+                    <li class="<?php if ($active == "video") {
+                                    echo 'active';
+                                } ?>">
                         <a href="<?= base_url('admin/video') ?>">
                             <i class="now-ui-icons media-1_button-play"></i>
                             <p>Video</p>
                         </a>
                     </li>
-                    <li class="active ">
+                    <li class="<?php if ($active == "buku") {
+                                    echo 'active';
+                                } ?>">
                         <a href="<?= base_url('admin/buku') ?>">
                             <i class="now-ui-icons education_agenda-bookmark"></i>
                             <p>Buku</p>
+                        </a>
+                    </li>
+                    <li class="<?php if ($active == "laporan") {
+                                    echo 'active';
+                                } ?>">
+                        <a href="<?= base_url('admin/laporan') ?>">
+                            <i class="now-ui-icons files_single-copy-04"></i>
+                            <p>Laporan</p>
                         </a>
                     </li>
                 </ul>
@@ -115,13 +158,35 @@
                             </div>
                         </form>
                         <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#pablo">
-                                    <i class="now-ui-icons media-2_sound-wave"></i>
-                                    <p>
-                                        <span class="d-lg-none d-md-block">Stats</span>
-                                    </p>
+                            <li class="nav-item dropdown no-arrow mx-1">
+                                <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="now-ui-icons ui-1_bell-53"></i>
+                                    <!-- Counter - Messages -->
+                                    <?php $query = "select * from pemberitahuan join user on pemberitahuan.user_id = user.id_user";
+                                    $pemberitahuan = $this->db->query($query)->result_array(); ?>
+                                    <span class="badge badge-danger badge-counter"><?= count($pemberitahuan) ?></span>
                                 </a>
+                                <!-- Dropdown - Messages -->
+                                <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+                                    <h6 class="dropdown-header">
+                                        Notifikasi Berita
+                                    </h6>
+                                    <?php foreach ($pemberitahuan as $pbt) : ?>
+                                        <a class="dropdown-item d-flex align-items-center" href="<?= base_url('admin/pemberitahuan') ?>">
+                                            <div class="dropdown-list-image mr-3">
+                                                <div class="status-indicator bg-success"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate">
+                                                    <?= $pbt['nama'] ?> Menambah Berita
+                                                </div>
+                                                <div class="small text-gray-500"><?= date('l, d-m-Y', strtotime($pbt['tanggal'])) ?></div>
+                                            </div>
+                                        </a>
+                                    <?php endforeach; ?>
+
+                                    <a class="dropdown-item text-center small text-gray-500" href="<?= base_url('admin/pemberitahuan') ?>">Baca Lebih Lanjut</a>
+                                </div>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
